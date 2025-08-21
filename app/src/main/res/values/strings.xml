@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UploadFile</string>
+    <string name="enter_userid">Enter UserID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_userid_and_password">Enter Your UserId and Password</string>
+    <string name="login">Login</string>
+    <string name="registration">Register</string>
+    <string name="enter_8_digit_password">Enter 8 Digit Password</string>
+    <string name="enter_email">Enter A Email</string>
+    <string name="submit">Submit</string>
+    <string name="upload1">+ Upload</string>
+</resources>

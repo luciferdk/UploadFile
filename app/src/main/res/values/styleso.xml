@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+<!--        Your splash icon is select here-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wewe</item>
+        <!-- Set the splash screen background to your image. -->
+<!--        <item name="windowSplashScreenBackground">@color/your_background_color</item> &lt;!&ndash; Or a solid color &ndash;&gt;-->
+
+        <!-- After splash, switch to your real app theme -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>
