@@ -44,6 +44,7 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation("com.google.android.material:material:1.9.0")
-    implementation("androidx.core:core-splashscreen:1.0.1") //import here splashscreen version here then you are good to use splashscreen
-// Or the latest version
+    implementation("androidx.core:core-splashscreen:1.0.1") //import here splashscreen version here then you are good to use splashscreen Or the latest version
+    implementation("com.google.firebase:firebase-storage:20.3.0")
+    implementation("com.google.firebase:firebase-database:20.3.0")
 }
