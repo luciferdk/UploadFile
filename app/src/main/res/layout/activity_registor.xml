@@ -25,14 +25,14 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="324dp"
+            android:layout_height="330dp"
             android:padding="32dp">
 
             <EditText
                 android:id="@+id/editTextEmailAddress"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="12dp"
                 android:autofillHints="username"
                 android:drawableStart="@drawable/baseline_person_24"
                 android:ems="10"
@@ -41,6 +41,7 @@
                 android:padding="12dp"
                 android:text="@string/enter_email"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,11 +50,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                app:passwordToggleEnabled="true"
-                app:passwordToggleTint="@android:color/darker_gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress">
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@android:color/darker_gray">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editTextPassword"
@@ -70,21 +71,6 @@
 
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:minHeight="48dp"
-                android:text="@string/login"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.952" />
-
-            <Button
                 android:id="@+id/button3"
                 android:layout_width="297dp"
                 android:layout_height="wrap_content"
@@ -95,7 +81,22 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.659" />
+                app:layout_constraintVertical_bias="0.733" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="110dp"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:minHeight="48dp"
+                android:text="@string/login"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.986" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
