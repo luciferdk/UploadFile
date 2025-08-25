@@ -18,4 +18,6 @@
         <!-- After splash, switch to your real app theme -->
         <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
     </style>
+
+
 </resources>
