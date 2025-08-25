@@ -4,29 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:textColor="@color/black">
+    android:background="@drawable/mainbackgroundaa">
 
-    <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="599dp"
-        android:orientation="vertical"
+    <!-- Header Section -->
+
+    <!-- Upload Button -->
+
+    <!-- Files Container -->
+
+    <!-- Logout Button -->
+
+    <TextView
+        android:id="@+id/userWelcome"
+        android:layout_width="167dp"
+        android:layout_height="37dp"
+        android:text="Welcome, User!"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="119dp"
-        android:layout_height="46dp"
-        android:text="@string/upload1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userWelcome">
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="167dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="📁 Upload File"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/filesContainer"
+        android:layout_width="394dp"
+        android:layout_height="564dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/uploadButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.372" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
