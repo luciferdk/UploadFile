@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "486745271909",
-    "firebase_url": "https://uploadfile-6befa-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "uploadfile-6befa",
-    "storage_bucket": "uploadfile-6befa.firebasestorage.app"
+    "project_number": "917933735746",
+    "firebase_url": "https://uploadfilesman-d176f-default-rtdb.firebaseio.com",
+    "project_id": "uploadfilesman-d176f",
+    "storage_bucket": "uploadfilesman-d176f.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:486745271909:android:bc76f1137dc5d83c7be08c",
+        "mobilesdk_app_id": "1:917933735746:android:709061632ce457e2b512db",
         "android_client_info": {
           "package_name": "com.lucifer.myapplication"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBSlrw6LmDMeOZf8hR0xH_hbGDFEPsiry0"
+          "current_key": "AIzaSyDFvImnRZBrmsGhQ0nClD7DED7Le7aKC4w"
         }
       ],
       "services": {
